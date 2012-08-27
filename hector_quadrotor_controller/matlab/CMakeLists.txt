@@ -7,7 +7,7 @@ add_custom_command(
   VERBATIM
 )
 
-add_custom_target(matlab_compile_all
+add_custom_target(matlab_compile
   DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/emcprj/rtwlib/quadrotorPropulsion/quadrotorPropulsion.a ${CMAKE_CURRENT_SOURCE_DIR}/emcprj/rtwlib/quadrotorDrag/quadrotorDrag.a
   SOURCES ${MFILES}
 )
