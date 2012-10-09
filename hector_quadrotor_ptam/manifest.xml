@@ -11,6 +11,7 @@
   
   <depend package="ptam"/>
   <depend package="hector_nist_arena_worlds"/>
+  <depend package="hector_quadrotor_gazebo"/>
 
 </package>
 
