@@ -2,8 +2,8 @@
 
 <launch>
     <node name="ptam" pkg="ptam" type="ptam" clear_params="true" output="screen">
-	    <remap from="image" to="/camera/image" />
-        <remap from="pose" to="pose"/>
+	    <remap from="image" to="/downward_cam/camera/image" />
+      <remap from="pose" to="pose"/>
 	    <rosparam file="$(find hector_quadrotor_ptam)/config/hector_quadro_ptam_params.yaml"/>
     </node>
 </launch>
