@@ -1,6 +1,6 @@
 <stack>
   <description brief="hector_quadrotor_experimental">hector_quadrotor_experimental contains experimental packages that are related to the [[hector_quadrotor]] stack</description>
-  <author>Maintained by Johannes Meyer and Stefan Kohlbrecher</author>
+  <author>Johannes Meyer and Stefan Kohlbrecher</author>
   <license>BSD</license>  
   <review status="unreviewed" notes=""/>
   <url>http://ros.org/wiki/hector_quadrotor_experimental</url>
