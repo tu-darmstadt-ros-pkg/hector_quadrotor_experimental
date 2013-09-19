@@ -1,0 +1,22 @@
+<package>
+  <name>hector_quadrotor_ptam</name>
+  <version>0.1.0</version>
+  <description>hector_quadrotor_ptam demonstrates the use of the ptam Visual SLAM package on a simulated quadrotor UAV</description>
+  <maintainer email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</maintainer>
+  <license>BSD</license>
+
+  <author email="kohlbrecher@sim.tu-darmstadt.de">Stefan Kohlbrecher</author>
+
+  <url type="website">http://ros.org/wiki/hector_quadrotor_ptam</url>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>ptam</build_depend>
+  <build_depend>hector_nist_areno_worlds</build_depend>
+  <build_depend>hector_quadrotor_gazebo</build_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+</package>
